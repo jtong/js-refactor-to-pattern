@@ -1,0 +1,1 @@
+var loan = new Loan(commitment, 0.00, riskRating, maturity, null);

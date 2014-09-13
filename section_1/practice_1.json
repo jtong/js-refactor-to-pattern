@@ -1,5 +1,5 @@
 {
-    "show_name": "用创建方法替代构造器",
+    "show_name": "用创建方法(又称静态工厂)替代构造器",
     "type": "normal",
     "point": 200,
 
