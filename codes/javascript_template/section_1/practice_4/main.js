@@ -17,18 +17,18 @@ XMLBuilderTest.prototype.getOrders = function(){
     builder.addBelow("order");
     builder.addAbove("customer");
     return builder.build();
-}
+};
 
 function DOMBuilderTest(){
 
 };
 
 XMLBuilderTest.prototype.getOrders = function(){
-    builder = new DOMBuilders("orders");
+    builder = new DOMBuilder("orders");
     builder.addBelow("order");
     builder.addAbove("customer");
     return builder.build();
-}
+};
 
 
 

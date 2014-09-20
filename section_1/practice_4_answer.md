@@ -35,7 +35,7 @@
     DOMBuilderTest.prototype = new AbstractBuilderTest();
     
     DOMBuilderTest.prototype.createBuilder = function(){
-        return new DOMBuilders("orders");
+        return new DOMBuilder("orders");
     };
     
     
